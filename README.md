@@ -18,6 +18,6 @@ Press reset button at the bottom and then:
 
 ```bash
 sudo dfu-bootloader atmega32u4 erase
-sudo dfu-bootloader atmega32u4 flash <myfirmware>.hex
+sudo dfu-bootloader atmega32u4 flash effective_typerv60.hex
 sudo dfu-bootloader atmega32u4 start
 ```
